@@ -1,6 +1,4 @@
 # bbolt_bench
-Benchmark tool for bbolt
-
 
 ## Steps to run benchmark against a specific bbolt version
 ### Step 1: Update go.mod/go.sum to depend on the target bbolt version
@@ -35,3 +33,7 @@ $ ./bbolt_bench -count 100000 -batch-size 25000
 ```
 $ make clean
 ```
+
+## Contribution
+
+Any contribution or suggestion is welcome!
