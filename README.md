@@ -3,7 +3,9 @@ Benchmark tool for bbolt
 
 
 ## Steps to run benchmark against a specific bbolt version
-### Step 1: Update go.mod/go.sum to depend on the version
+### Step 1: Update go.mod/go.sum to depend on the target bbolt version
+
+You need to update the go.mod/go.sum to depend on the target bbolt version, against which you are going to run benchmark.
 
 Example 1: get a specific commit on main branch
 ```
@@ -26,4 +28,10 @@ $ go build
 Example:
 ```
 $ ./bbolt_bench -count 100000 -batch-size 25000
+```
+
+### Step 4: cleanup
+
+```
+$ make clean
 ```
