@@ -3,7 +3,7 @@ Benchmark tool for bbolt
 
 
 ## Steps to run benchmark against a specific bbolt version
-- Step 1: Update go.mod/go.sum to depend on the version
+### Step 1: Update go.mod/go.sum to depend on the version
 
 Example 1: get a specific commit on main branch
 ```
@@ -14,12 +14,14 @@ Example 2: get 1.3.8
 ```
 $ go get go.etcd.io/bbolt@v1.3.8
 ```
-- Step 2: build
+
+### Step 2: build
 
 ```
 $ go build
 ```
-- Run benchmark
+
+### Step 3: Run benchmark
 
 Example:
 ```
