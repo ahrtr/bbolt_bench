@@ -1,6 +1,8 @@
 module github.com/ahrtr/bbolt_bench
 
-go 1.21.9
+go 1.22
+
+toolchain go1.22.2
 
 require go.etcd.io/bbolt v1.3.9
 
