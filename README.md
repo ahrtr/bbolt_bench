@@ -8,11 +8,13 @@ You need to update the go.mod/go.sum to depend on the target bbolt version, agai
 Example 1: get a specific commit on main branch
 ```
 $ go get go.etcd.io/bbolt@67165811e57a79678b6fab9b029bc032b9dfef0e
+$ go mod tidy
 ```
 
 Example 2: get 1.3.8
 ```
 $ go get go.etcd.io/bbolt@v1.3.8
+$ go mod tidy
 ```
 
 ### Step 2: build
